@@ -9,6 +9,8 @@ The "coming soon" page for Seamcraft, hosted on GitHub Pages at https://seamcraf
 | `styles.css` | Shared styles for both pages, with light and dark themes. |
 | `favicon.svg` | The two-panel stitched-seam mark. |
 | `CNAME` | Tells GitHub Pages to serve this site at `seamcraft.dev`. |
+| `.well-known/microsoft-identity-association.json` | Proves to Microsoft Entra that the Seamcraft app registration owns seamcraft.dev (its publisher domain). |
+| `.nojekyll` | Stops GitHub Pages skipping folders that start with a dot, such as `.well-known`. |
 
 ## Publish
 
