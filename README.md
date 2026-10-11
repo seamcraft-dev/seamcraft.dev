@@ -5,7 +5,7 @@ The "coming soon" page for Seamcraft, hosted on GitHub Pages at https://seamcraf
 | File | Purpose |
 |---|---|
 | `index.html` | The coming-soon page. No scripts, no cookies, no external requests. |
-| `privacy.html` | The privacy policy. Fill in the highlighted effective date and contact email before publishing. |
+| `privacy.html` | The privacy policy. Change its effective date when its content changes. |
 | `styles.css` | Shared styles for both pages, with light and dark themes. |
 | `favicon.svg` | The two-panel stitched-seam mark. |
 | `CNAME` | Tells GitHub Pages to serve this site at `seamcraft.dev`. |
