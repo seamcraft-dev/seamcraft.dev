@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>License Agreement · Seamcraft</title>
+  <meta name="description" content="The Seamcraft End User License Agreement.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="./" aria-label="Seamcraft home">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <rect x="4" y="4" width="26" height="56" rx="6" fill="#0F7B6C"/>
+          <rect x="34" y="4" width="26" height="56" rx="6" fill="#2BB3A0"/>
+          <path d="M32 11.5v5M32 23.5v5M32 35.5v5M32 47.5v5" stroke="#F4C95D" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        Seamcraft
+      </a>
+    </header>
+
+    <main class="prose">
+      <h1>End User License Agreement</h1>
+      <p class="meta">Beta terms &middot; Effective 17 October 2026</p>
+
+      <h2>1. Agreement</h2>
+      <p>
+        This End User License Agreement (“<strong>Agreement</strong>”) is between <strong>Common Data Solutions, LLC</strong>,
+        a Georgia limited liability company doing business as Seamcraft (“<strong>we</strong>”, “<strong>us</strong>”), and
+        the organization or individual that installs or uses Seamcraft (“<strong>you</strong>”).
+      </p>
+      <p>
+        By installing, activating or using Seamcraft, you agree to this Agreement. If you accept it on behalf of an
+        organization, you confirm that you have authority to bind that organization. If you do not agree, do not
+        install or use Seamcraft.
+      </p>
+      <p>“<strong>Seamcraft</strong>” means the Seamcraft desktop software, its updates, license keys and documentation.</p>
+
+      <h2>2. License grant</h2>
+      <p>
+        <strong>2.1 License.</strong> Subject to this Agreement, we grant you a non-exclusive, non-transferable,
+        non-sublicensable license to install and use Seamcraft for your internal business purposes, within the scope of
+        the edition you are entitled to:
+      </p>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Edition</th><th>What you may use</th><th>Term</th><th>Scope</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Free</td><td>The features marked Free: connecting, browsing, viewing definitions, and where a connection is used</td><td>Until terminated</td><td>Any number of users and Microsoft Fabric tenants</td></tr>
+            <tr><td>Pro trial</td><td>All Pro features</td><td>30 days from activation</td><td>One Fabric tenant</td></tr>
+            <tr><td>Pro</td><td>All Pro features, unlocked by a license key</td><td>The paid subscription period</td><td>The number of Fabric tenants stated in your order</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        <strong>2.2 License keys.</strong> Pro features work only with a valid license key issued by us. A key is licensed
+        to the organization named in the order, for the tenants and period stated in it. Seamcraft checks the key offline
+        and does not need to contact us to run.
+      </p>
+      <p>
+        <strong>2.3 Tenant.</strong> A “<strong>Fabric tenant</strong>” means one Microsoft Entra ID tenant in which
+        Microsoft Fabric is used. Connecting Pro features to more tenants than your order covers requires an additional
+        license.
+      </p>
+      <p>
+        <strong>2.4 Consultants.</strong> A consultant or contractor may use your Pro license on your tenants, for your
+        benefit only. A consultant using Seamcraft Pro across several clients needs a license that covers each client
+        tenant, or a consultant license if we offer one.
+      </p>
+      <p>
+        <strong>2.5 Beta.</strong> While Seamcraft is in beta, every feature, including the Pro features, is available
+        without a license key, on the Free edition's terms: any number of users and Fabric tenants, at no charge.
+        Sections 2.2, 2.3, 2.4 and 6 apply once Pro is offered for sale. We will announce the end of the beta on
+        seamcraft.dev at least 30 days before it ends. Beta software may contain errors, so take particular care with
+        Section 4.
+      </p>
+
+      <h2>3. Restrictions</h2>
+      <p>You may not, and may not let anyone else:</p>
+      <ol>
+        <li>Decompile, disassemble, reverse engineer or attempt to derive the source code of Seamcraft, except to the extent applicable law expressly allows despite this restriction.</li>
+        <li>Bypass, disable or tamper with license keys, trial limits or any other licensing mechanism.</li>
+        <li>Share, publish, sell or transfer a license key, or use one key beyond the tenants and period it covers.</li>
+        <li>Rent, lease, resell, sublicense or distribute Seamcraft, or offer it to third parties as a hosted or managed service.</li>
+        <li>Modify Seamcraft or create derivative works of it.</li>
+        <li>Remove or alter any copyright, trademark or other notice in Seamcraft.</li>
+        <li>Use Seamcraft to break the law, or to access a Microsoft Fabric tenant without the owner's authorization.</li>
+      </ol>
+
+      <h2>4. Your Fabric environment</h2>
+      <p>
+        <strong>4.1 Seamcraft changes items you choose.</strong> Pro features such as Fix Connections, Update from
+        Workspace, Copy and Paste, and Recreate Pipeline create, change, replace or delete items in your Microsoft Fabric
+        tenants. They act only when you start them, and they act with the permissions of the identity you sign in with.
+      </p>
+      <p>
+        <strong>4.2 You are responsible for changes you make.</strong> You decide which changes to make and where. Before
+        changing production items, you should review what Seamcraft will do and test the change in a non-production
+        workspace. You are responsible for the results of changes you start, including any effect on pipelines,
+        schedules, reports, data or downstream systems.
+      </p>
+      <p>
+        <strong>4.3 Backups.</strong> Seamcraft saves a local copy of an item's definition before certain changes, so that
+        you can restore it. These backups are a convenience, not a guarantee. They may not capture everything Fabric holds
+        for an item (for example run history, permissions or data), and they are lost if the local database is deleted.
+        You remain responsible for your own backup and recovery arrangements.
+      </p>
+      <p>
+        <strong>4.4 Permissions and identities.</strong> You are responsible for the Microsoft Entra ID accounts and
+        service principals you use with Seamcraft, for the permissions granted to them, and for keeping their credentials
+        secure.
+      </p>
+      <p>
+        <strong>4.5 Microsoft services.</strong> Seamcraft works through Microsoft's public Fabric and Graph APIs.
+        Microsoft may change or withdraw those APIs, or limit how they are used, at any time. We are not responsible for
+        Microsoft's services, their availability or their effect on Seamcraft.
+      </p>
+
+      <h2>5. Data and privacy</h2>
+      <p>
+        <strong>5.1 Your data stays on your machine.</strong> Seamcraft talks directly from your computer to Microsoft's
+        APIs. Everything it keeps (sets, mappings, saved definitions and backups, cached metadata, recent connections and
+        logs) is stored locally under your Windows user profile. None of it is sent to us. Our
+        <a href="privacy.html">privacy policy</a> describes this in full.
+      </p>
+      <p>
+        <strong>5.2 No telemetry.</strong> Seamcraft does not collect usage data, analytics or crash reports. The only
+        connection it makes other than to Microsoft is its update check, which asks GitHub whether a newer version of
+        Seamcraft is available; you can turn off the start-up check in Settings. If this changes, we will describe what is
+        collected and let you turn it off before it is enabled.
+      </p>
+      <p>
+        <strong>5.3 Credentials.</strong> Seamcraft never stores a service principal's client secret; you enter it each
+        time you connect. Interactive sign-ins are handled by Microsoft's sign-in libraries, through Seamcraft's own
+        Microsoft Entra app, published by Common Data Solutions LLC. Your organization may require an administrator to
+        approve that app before you can sign in. Seamcraft's logs record actions and errors and are designed not to
+        contain secrets.
+      </p>
+      <p>
+        <strong>5.4 Licensing.</strong> License-key checks happen offline. When you buy, our payment provider processes
+        your order and payment details as merchant of record under its own terms and privacy policy. We receive your name,
+        organization, email address and order details to issue and support your license.
+      </p>
+      <p>
+        <strong>5.5 Your responsibility.</strong> Data from your tenants stored by Seamcraft on your machine is your data.
+        You are responsible for protecting that machine and for handling that data in line with your own policies.
+      </p>
+
+      <h2>6. Fees, updates and support</h2>
+      <p>
+        <strong>6.1 Fees.</strong> Pro is sold as a subscription at the price shown when you order. Orders are processed by
+        our payment provider, which may be the seller of record and may add applicable taxes.
+      </p>
+      <p>
+        <strong>6.2 Renewal.</strong> Subscriptions renew automatically for the same period unless you cancel before the
+        renewal date. We will give at least 30 days' notice of any price change, which applies from your next renewal.
+      </p>
+      <p>
+        <strong>6.3 Refunds.</strong> You may request a full refund within 30 days of your first purchase. Renewals are not
+        refundable, except where the law requires otherwise.
+      </p>
+      <p>
+        <strong>6.4 When a subscription ends.</strong> Pro features stop working when your subscription or trial ends, and
+        Seamcraft reverts to the Free edition. Your local data stays on your machine and remains yours.
+      </p>
+      <p>
+        <strong>6.5 Updates.</strong> While your subscription is active, you may download updates we release. Seamcraft can
+        check for updates and install them when you choose (see Section 5.2). We may add, change or remove features in
+        updates. The Free edition receives updates at our discretion.
+      </p>
+      <p>
+        <strong>6.6 Support.</strong> Pro subscriptions include email support at
+        <a href="mailto:seamcraftapp@gmail.com">seamcraftapp@gmail.com</a> on business days, on a reasonable-efforts basis,
+        with no guaranteed response or resolution times unless agreed in writing. The Free edition has no support
+        commitment.
+      </p>
+
+      <h2>7. Ownership and notices</h2>
+      <p>
+        <strong>7.1 Ownership.</strong> Seamcraft is licensed, not sold. We and our licensors keep all rights, title and
+        interest in Seamcraft, including all intellectual property rights. Seamcraft and the Seamcraft logo are trademarks
+        of Common Data Solutions, LLC.
+      </p>
+      <p>
+        <strong>7.2 Feedback.</strong> If you send us suggestions or feedback, we may use them without obligation to you.
+      </p>
+      <p>
+        <strong>7.3 Third-party components.</strong> Seamcraft includes third-party open-source components, each licensed
+        under its own terms. Those terms govern your use of each component. Nothing in this Agreement limits rights those
+        licenses give you.
+      </p>
+      <p>
+        <strong>7.4 Microsoft.</strong> Microsoft, Microsoft Fabric, Microsoft Entra ID and Power BI are trademarks of the
+        Microsoft group of companies. Seamcraft is an independent product. It is not affiliated with, sponsored by or
+        endorsed by Microsoft. Your use of Microsoft's services is governed by your agreements with Microsoft.
+      </p>
+
+      <h2>8. Warranty disclaimer and limitation of liability</h2>
+      <p>
+        <strong>8.1 Disclaimer.</strong> SEAMCRAFT IS PROVIDED “AS IS” AND “AS AVAILABLE”. TO THE FULLEST EXTENT ALLOWED BY
+        LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+        PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT SEAMCRAFT WILL BE ERROR-FREE, THAT IT WILL
+        WORK WITH EVERY VERSION OF MICROSOFT FABRIC, OR THAT ANY CHANGE IT MAKES CAN BE UNDONE.
+      </p>
+      <p>
+        <strong>8.2 Excluded damages.</strong> TO THE FULLEST EXTENT ALLOWED BY LAW, WE ARE NOT LIABLE FOR ANY INDIRECT,
+        INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR LOST PROFITS, REVENUE, DATA, OR BUSINESS
+        INTERRUPTION, INCLUDING LOSS OR CORRUPTION OF ITEMS, PIPELINES, SCHEDULES OR DATA IN YOUR FABRIC TENANTS, EVEN IF
+        WE WERE TOLD SUCH DAMAGES WERE POSSIBLE.
+      </p>
+      <p>
+        <strong>8.3 Cap.</strong> OUR TOTAL LIABILITY UNDER THIS AGREEMENT IS LIMITED TO THE AMOUNT YOU PAID FOR SEAMCRAFT
+        IN THE 12 MONTHS BEFORE THE CLAIM AROSE, OR US$100 IF YOU HAVE PAID NOTHING, INCLUDING DURING THE BETA.
+      </p>
+      <p>
+        <strong>8.4 Basis of the bargain.</strong> These limits are an essential part of this Agreement and reflect the
+        price of Seamcraft. Some jurisdictions do not allow certain exclusions or limits, so some of them may not apply to
+        you.
+      </p>
+
+      <h2>9. Term, termination and general terms</h2>
+      <p>
+        <strong>9.1 Term and termination.</strong> This Agreement lasts until terminated. You may end it at any time by
+        uninstalling Seamcraft. We may end it, or your license, if you materially breach it and do not cure the breach
+        within 15 days of notice. On termination you must stop using Seamcraft. Sections 3, 7, 8 and 9 survive.
+      </p>
+      <p>
+        <strong>9.2 Governing law and venue.</strong> This Agreement is governed by the laws of the State of Georgia, USA,
+        without regard to its conflict-of-laws rules. The state and federal courts located in Georgia have exclusive
+        jurisdiction over any dispute, and both parties consent to that venue. The UN Convention on Contracts for the
+        International Sale of Goods does not apply.
+      </p>
+      <p>
+        <strong>9.3 Export.</strong> You will comply with U.S. export control and sanctions laws in using Seamcraft, and you
+        will not use it in or for any embargoed country or restricted party.
+      </p>
+      <p>
+        <strong>9.4 U.S. Government users.</strong> Seamcraft is commercial computer software. Government rights in it are
+        limited to those granted in this Agreement, consistent with FAR 12.212 and DFARS 227.7202.
+      </p>
+      <p>
+        <strong>9.5 Changes to this Agreement.</strong> We may update this Agreement for future versions or renewals. The
+        version in effect when you install, activate or renew applies.
+      </p>
+      <p>
+        <strong>9.6 Entire agreement.</strong> This Agreement, with any order you place, is the entire agreement between you
+        and us about Seamcraft. If a provision is unenforceable, the rest remains in effect. Our failure to enforce a
+        provision is not a waiver. You may not assign this Agreement without our written consent; we may assign it to a
+        successor to our business.
+      </p>
+      <p>
+        <strong>9.7 Contact.</strong> Common Data Solutions, LLC (Seamcraft), Georgia, USA. Email:
+        <a href="mailto:seamcraftapp@gmail.com">seamcraftapp@gmail.com</a>.
+      </p>
+    </main>
+
+    <footer>
+      <hr class="stitch">
+      <p>&copy; 2026 Common Data Solutions, LLC. All rights reserved. Seamcraft is a product of Common Data Solutions, LLC.</p>
+      <p><a href="./">Home</a> · <a href="eula.html">License agreement</a> · <a href="privacy.html">Privacy policy</a></p>
+      <p>Microsoft and Microsoft Fabric are trademarks of the Microsoft group of companies. Seamcraft is an independent product and is not affiliated with or endorsed by Microsoft.</p>
+    </footer>
+  </div>
+</body>
+</html>

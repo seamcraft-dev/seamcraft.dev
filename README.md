@@ -1,12 +1,13 @@
 # seamcraft.dev
 
-The "coming soon" page for Seamcraft, hosted on GitHub Pages at https://seamcraft.dev.
+The Seamcraft website, hosted on GitHub Pages at https://seamcraft.dev.
 
 | File | Purpose |
 |---|---|
-| `index.html` | The coming-soon page. No scripts, no cookies, no external requests. |
+| `index.html` | The home page: download buttons (always the latest release), getting started, features, the beta. No scripts, no cookies, no external requests. |
+| `eula.html` | The End User License Agreement (beta terms). The source draft is the EULA Claude Doc; keep the two in step. |
 | `privacy.html` | The privacy policy. Change its effective date when its content changes. |
-| `styles.css` | Shared styles for both pages, with light and dark themes. |
+| `styles.css` | Shared styles for every page, with light and dark themes. |
 | `favicon.svg` | The two-panel stitched-seam mark. |
 | `CNAME` | Tells GitHub Pages to serve this site at `seamcraft.dev`. |
 | `.well-known/microsoft-identity-association.json` | Proves to Microsoft Entra that the Seamcraft app registration owns seamcraft.dev (its publisher domain). |

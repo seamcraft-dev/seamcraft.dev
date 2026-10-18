@@ -93,3 +93,18 @@ h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; color: 
 footer { padding: 48px 0 40px; color: var(--muted); font-size: 13px; }
 footer p { margin: 4px 0; }
 footer a { color: var(--muted); }
+
+/* Home page: download buttons, the line under them, the SmartScreen note and the getting-started steps. */
+.download { display: flex; flex-wrap: wrap; gap: 12px; margin: 32px 0 12px; }
+.button {
+  display: inline-block; padding: 12px 20px; border-radius: 10px; font-weight: 600; text-decoration: none;
+  border: 1px solid var(--line); background: var(--surface); color: var(--text);
+}
+.button:hover { border-color: var(--accent); }
+.button.primary { background: var(--accent); border-color: var(--accent); color: #FFFFFF; }
+.button.primary:hover { filter: brightness(1.08); }
+@media (prefers-color-scheme: dark) { .button.primary { color: #101615; } }
+.meta { color: var(--muted); font-size: 14px; margin: 0 0 8px; }
+.note { color: var(--muted); font-size: 14px; max-width: 70ch; margin: 0; }
+.steps { max-width: 70ch; padding-left: 20px; margin: 0; }
+.steps li { margin: 0 0 12px; }

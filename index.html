@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Seamcraft for Microsoft Fabric</title>
-  <meta name="description" content="Seamcraft is a desktop tool for Microsoft Fabric developers and administrators: keep Dev, Test and Prod consistent, move pipelines and notebooks with the right connections, and fix items in place. Coming soon.">
+  <meta name="description" content="Seamcraft is a free Windows app for Microsoft Fabric developers and administrators: keep Dev, Test and Prod consistent, move pipelines and notebooks with the right connections, and fix items in place. Free during the beta.">
   <meta property="og:title" content="Seamcraft for Microsoft Fabric">
-  <meta property="og:description" content="Keep Dev, Test and Prod consistent. Move pipelines with the right connections. Fix items in place. Coming soon.">
+  <meta property="og:description" content="Keep Dev, Test and Prod consistent. Move pipelines with the right connections. Fix items in place. Free during the beta.">
   <meta property="og:url" content="https://seamcraft.dev/">
   <meta property="og:type" content="website">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -27,13 +27,47 @@
 
     <main>
       <section class="hero">
-        <span class="badge">Coming soon</span>
+        <span class="badge">Free beta</span>
         <h1>Every piece of your Fabric, <span class="seam">seamed together</span>.</h1>
         <p class="lede">
-          Seamcraft is a desktop tool for Microsoft Fabric developers and administrators. It keeps Dev, Test and Prod
+          Seamcraft is a Windows app for Microsoft Fabric developers and administrators. It keeps Dev, Test and Prod
           consistent, moves pipelines and notebooks with the right connections, and fixes items in place without
           losing their IDs or schedules.
         </p>
+
+        <div class="download">
+          <a class="button primary" href="https://github.com/seamcraft-dev/Seamcraft-Releases/releases/latest/download/Seamcraft.App-win-Setup.exe">Download for Windows</a>
+          <a class="button" href="https://github.com/seamcraft-dev/Seamcraft-Releases/releases/latest/download/Seamcraft.App-win-Portable.zip">Portable zip</a>
+        </div>
+        <p class="meta">
+          Latest version &middot; Windows 10 or 11, 64-bit &middot; No admin rights needed &middot; Updates itself &middot;
+          <a href="https://github.com/seamcraft-dev/Seamcraft-Releases/releases">All releases</a>
+        </p>
+        <p class="note">
+          The installer isn't code-signed yet, so Windows may say <em>“Windows protected your PC”</em>. Choose
+          <strong>More info</strong>, then <strong>Run anyway</strong>.
+        </p>
+      </section>
+
+      <hr class="stitch">
+
+      <section>
+        <h2>Getting started</h2>
+        <ol class="steps">
+          <li>
+            <strong>Install.</strong> Run the installer. It installs for your Windows user only and opens Seamcraft
+            when it's done.
+          </li>
+          <li>
+            <strong>Connect.</strong> Choose <strong>Connect</strong> and sign in with your work account, the one you
+            use for Microsoft Fabric. The first time, Microsoft asks you to approve Seamcraft. If your organization only
+            lets admins approve apps, the sign-in screen says so, and the in-app help (F1) has a link for your admin.
+          </li>
+          <li>
+            <strong>Explore.</strong> Browse your workspaces like SQL Server Management Studio's Object Explorer.
+            Nothing in Fabric changes until you choose an action that changes it.
+          </li>
+        </ol>
       </section>
 
       <hr class="stitch">
@@ -70,9 +104,23 @@
         <div class="local">
           <div>
             <strong>Your data stays on your machine.</strong>
-            <p>Seamcraft talks directly to the Fabric APIs from your desktop. Nothing is stored anywhere except the changes you choose to make in Fabric.</p>
+            <p>Seamcraft talks directly to the Fabric APIs from your desktop. Nothing is stored anywhere except the changes you choose to make in Fabric. See the <a href="privacy.html">privacy policy</a>.</p>
           </div>
         </div>
+      </section>
+
+      <hr class="stitch">
+
+      <section>
+        <h2>About the beta</h2>
+        <p class="lede">
+          Every feature is free while Seamcraft is in beta. A paid Pro edition will follow, with a free edition
+          for browsing and checking, and plenty of notice before anything changes.
+        </p>
+        <p class="lede">
+          Found a problem, or have an idea? Email <a href="mailto:seamcraftapp@gmail.com">seamcraftapp@gmail.com</a>.
+          For a problem, the log helps: <strong>Logs</strong> on the toolbar opens its folder.
+        </p>
       </section>
 
       <hr class="stitch">
@@ -80,7 +128,7 @@
 
     <footer>
       <p>&copy; 2026 Common Data Solutions, LLC. All rights reserved. Seamcraft is a product of Common Data Solutions, LLC.</p>
-      <p><a href="privacy.html">Privacy policy</a></p>
+      <p><a href="eula.html">License agreement</a> · <a href="privacy.html">Privacy policy</a></p>
       <p>Microsoft and Microsoft Fabric are trademarks of the Microsoft group of companies. Seamcraft is an independent product and is not affiliated with or endorsed by Microsoft.</p>
     </footer>
   </div>
